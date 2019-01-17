@@ -1,0 +1,201 @@
+body {
+	background-color: rgba(191, 233, 255, 0.4);
+}
+
+button {
+	background-color: #00d18b;
+	border: none;
+	color: rgba(245,0,200,.96);
+	font-family: monospace;
+	font-size: 2em;
+	margin-top: 2em;
+}
+
+button:hover {
+	background-color: rgba(245,0,200,.96);
+	color: #00d18b;
+}
+
+form {
+	display: inline-block;
+}
+
+footer {
+	bottom: -6.25em;
+	position: relative;
+	text-align: center;
+}
+
+h1 {
+	color: rgba(245,0,200,.96);
+	font-family: 'Special Elite', cursive;
+	font-size: 6.25em;
+	position: relative;
+	text-align: center;
+	top: 1em;
+}
+
+h2 {
+	background-color: #00d18b;
+	border-radius: 0.625em;
+	color: rgba(245,0,200,.96);
+	font-family: 'Special Elite', cursive;
+	font-size: 5em;
+	width: 50%;
+}
+
+h3 {
+	color: #00d18b;
+	font-family: 'Marvel', sans-serif;
+	font-size: 4em;
+}
+
+h4 {
+	color: rgba(245,0,200,.96);
+	font-family: 'Special Elite', cursive;
+	font-size: 3.125em;
+}
+
+iframe {
+	height: 19.68em;
+	width: 35em;
+}
+
+img {
+	width: 100%;
+	margin: auto;
+}
+
+input {
+	height: 3vh;
+	width: 25vw;
+}
+
+label {
+	font-family: monospace;
+	font-size: 3em;
+	padding-bottom: 2em;
+	padding-right: 1em;
+}
+
+main {
+	position: relative;
+	top: 9.375em;
+}
+
+nav {
+	background-color: #00d18b;
+	border-radius: 10px;
+	color: rgba(245,0,200,.96);
+	display: flex;
+	font-family: 'Marvel', sans-serif;
+	font-size: 3.125em;
+	height: 1.5em;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	width: 99%;
+	z-index: 10;
+}
+
+option {
+	font-family: monospace;
+}
+
+p {
+	font-family: monospace;
+	font-size: 2em;
+}
+
+.price {
+	color: rgba(245,0,200,.96);
+}
+
+.product {
+	border: none;
+	width: 25%;
+}
+
+.product-container {
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-group {
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	border: 0.5em solid #00d18b;
+	margin-bottom: 0.5em;
+	padding: 1em;
+}
+
+select {
+	height: 3vh;
+	width: 25vw;
+}
+
+.stickers {
+	align-items: flex-end;
+}
+
+@media (max-width: 800px) {
+	button {
+		margin-top: 1em;
+	}
+	footer {
+		bottom: -7em;
+	}
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+		width: 75%;
+	}
+
+	h3 {
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	iframe {
+	height: 10em;
+	width: 17.5em;
+	}
+
+
+	img {
+		width: 250%;
+	}
+
+	input {
+		width: 75%
+	}
+
+	label {
+		font-size: 2em;
+	}
+
+	nav {
+		font-size: 1.5em;
+	}
+
+	.product-group {
+	border: none;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.stickers {
+		align-items: flex-start;
+	}
+}
